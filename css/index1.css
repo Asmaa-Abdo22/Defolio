@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+:root {
+  --font-family: "Roboto", sans-serif;
+  --black-color: #1e1e1e;
+  --white-color: #ffffff;
+  --section-bg: #f5f5f5;
+  --second-color: #4e4e4e;
+  --third-color: #0078ff;
+}
+a,
+span {
+  display: inline-block;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+img {
+  display: block;
+}
+/* #############GLOBAL ############### */
+.title {
+  text-align: center;
+  padding-block: 1.5625rem;
+}
+.title h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.title span {
+  color: #1e1e1e7a;
+}
+
+/* <!-- ########## ICON TOP######## --> */
+.icon-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--third-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-inline: 0.625rem;
+  flex-shrink: 0;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  transition: 0.5s background-color;
+}
+.icon-top:hover {
+  background-color: #3292ff;
+}
+.icon-top i {
+  color: white;
+}
+/* ############## NAV BAR ############### */
+nav {
+  background-color: rgba(0, 0, 0, 0.861);
+}
+nav ul li {
+  padding: 7px;
+}
+nav .special {
+  font-weight: bold !important;
+  position: relative;
+}
+nav ul .special:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: var(--white-color);
+  top: 100%;
+  left: 10px;
+  transition: 0.3s width;
+}
+nav ul li .special:hover:after {
+  width: calc(80% - 15px);
+}
+/* #########contact########## */
+
+#prot {
+  background-image: linear-gradient(to right, #0077ffa5, #0077ffa5),
+    url(/images/asset\ 13.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+#prot .container {
+  padding-top: 70px;
+}
+/* #########MAIN########## */
+#main{
+    background-color: #F5F5F5;
+}
+#main ul{
+    margin-left: -25px;
+}
+#main ul span{
+    font-weight: bold;
+    color: #4e4e4e;
+}
+#main ul li{
+    padding-block: 6px;
+}
+/* #########FOOTER########## */
+
+#footer {
+  background-color: #0062d3;
+}
+
+

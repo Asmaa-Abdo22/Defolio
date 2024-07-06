@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="first subpage of defolio  " />
+    <title>DevFolio Bootstrap</title>
+    <!-- ########## FAV ICON ########## -->
+    <link href="images/bootstrap-600x600.jpg" rel="icon" />
+    <!-- ########## FONT AWESOME ########## -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- ######### BOOTSTRAP CSS FILE ########## -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- ########## CUSTOM CSS FILE ############# -->
+    <link rel="stylesheet" href="css/index1.css" />
+  </head>
+  <body>
+    <!-- ########## ICON TOP############ -->
+    <div class="icon-top z-3">
+      <a href="#prot">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top z-3">
+      <div class="container">
+        <a class="navbar-brand fs-3 fw-bold" href="index.html">DevFolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+            <li class="nav-item">
+              <a class="nav-link link-light special home-link" href="#home"
+                >home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link link-light special about-link" href="#about"
+                >about</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link link-light special services-link"
+                href="#services"
+                >services</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link link-light special work-link" href="#work"
+                >work</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link link-light special blog-link" href="#blog"
+                >blog</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle link-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu text-capitalize">
+                <li><a class="dropdown-item" href="#"> drop down 1</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">deep drop down</a>
+                  <ul class="dropdown-menu text-capitalize">
+                    <li><a class="dropdown-item" href="#"> drop down 1</a></li>
+                    <li><a class="dropdown-item" href="#">drop down 2</a></li>
+                    <li><a class="dropdown-item" href="#">drop down 3</a></li>
+                    <li><a class="dropdown-item" href="#">drop down 4</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">drop down 2</a></li>
+                <li><a class="dropdown-item" href="#">drop down 3</a></li>
+                <li><a class="dropdown-item" href="#">drop down 4</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link link-light special contact-link"
+                href="#contact"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="prot" class="contact py-5">
+      <div class="container">
+        <div class="title">
+          <h3>PORTFOLIO DETAILS</h3>
+          <a href="index.html" class="text-white" target="_blank">Home / </a>
+          <span> Portfolio Details</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container py-5">
+        <div class="row g-4">
+          <div class="col-lg-8">
+            <div
+              id="carouselExampleAutoplaying "
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/portfolio-details-1.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/portfolio-details-2.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/portfolio-details-3.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="item d-flex flex-column">
+                <div class="project-info  shadow-sm p-4">
+                    <h3 class="fs-4 fw-bold">Project information</h3>
+                    <ul>
+                        <li><span>Category : </span> Web design</li>
+                        <li><span>Client : </span> ASU Company</li>
+                        <li><span>Project date :</span> 01 March, 2020</li>
+                        <li><span>Project URL : </span> www.example.com</li>
+                    </ul>
+                    
+                </div>
+
+                <div class="example mt-4 ">
+                    <h2 class="fw-bold fs-3">This is an example of portfolio detail</h2>
+                   <p class="text-muted">
+                    Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                   </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer text-white text-center py-3">
+      <p>
+        © Copyright <span class="fw-bolder">DevFolio</span>. All Rights Reserved
+      </p>
+      <p>
+        Designed by
+        <a target="_blank" href="https://bootstrapmade.com/" class="text-white">
+          BootstrapMade</a
+        >
+      </p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
